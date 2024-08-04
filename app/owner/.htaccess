@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^dashboard$ index.php [L]
+RewriteRule ^meja$ meja.php [L]
+RewriteRule ^bahan$ bahan.php [L]
+RewriteRule ^kategori$ kategori.php [L]
+RewriteRule ^menu$ menu.php [L]
+RewriteRule ^transaksi$ transaksi.php [L]
+
+</IfModule>

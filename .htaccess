@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^masuk$ app/user [L]
+
+#Admin
+RewriteRule ^login$ app [L]
+
+</IfModule>

@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^user$ index.php [L]
+RewriteRule ^menu$ menu.php [L]
+RewriteRule ^nota$ nota.php [L]
+
+</IfModule>
